@@ -1,0 +1,146 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head id="Head1" runat="server">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="assets/images/fav.png" type="image/x-icon">
+   <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/images/fav.jpg">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/plugins/slider/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/plugins/slider/css/owl.theme.default.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <header class="continer-fluid ">
+    <div  class="header-top">
+        <div class="container">
+            <div class="row col-det">
+                <div class="col-lg-6 d-none d-lg-block">
+                    <ul class="ulleft">
+                        <li>
+                            <i class="far fa-envelope"></i>
+                            caritas@gmail.com
+                            <span>|</span></li>
+                        <li>
+                            <i class="fas fa-phone-volume"></i>
+                            +91 987 666 5433</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 folouws">
+                    <ul class="ulright">
+                       <li> <small>Follow Us </small>:</li>
+                        <li>
+                            <i class="fab fa-facebook-square"></i>
+                        </li>
+                        <li>
+                            <i class="fab fa-twitter-square"></i>
+                        </li>
+                        <li>
+                            <i class="fab fa-instagram"></i>
+                        </li>
+                        <li>
+                            <i class="fab fa-linkedin"></i>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 d-none d-md-block col-md-6 btn-bhed">
+                     <asp:Button class="btn btn-sm btn-success" ID="btn_register" runat="server" Text="Register" OnClick="btn_register_Click" CausesValidation="False" />
+                    <asp:Button class="btn btn-sm btn-default" ID="btn_login" runat="server" Text="Login" OnClick="btn_login_Click" CausesValidation="False" />
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="menu-jk" class="header-bottom">
+        <div class="container">
+            <div class="row nav-row">
+                <div class="col-lg-3 col-md-12 logo">
+                    <a href="index.aspx">
+                        <img src="assets/images/logoo.png" alt="" style="width:500px">
+                        <a data-toggle="collapse" data-target="#menu" href="#menu"><i class="fas d-block d-lg-none  small-menu fa-bars"></i></a>
+                    </a>
+                </div>
+                <div id="menu" class="col-lg-9 col-md-12 d-none d-lg-block nav-col">
+                            <ul class="navbad">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="index.aspx">Home
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="about_us.aspx">About Us</a>
+                                </li>
+                                
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="gallery.aspx">Gallery</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contact_us.aspx">Contact US</a>
+                                </li>
+                            </ul>
+                </div>
+            </div>
+        </div>
+    </div> 
+</header>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        <footer class="footer">
+        <div class="container">
+            
+            
+            <div class="nav-box row clearfix">
+                <div class="inner col-md-9 clearfix">
+                    <ul class="footer-nav clearfix">
+                        <li><a href="index.aspx">Home</a></li>
+                        <li><a href="about_us.aspx">About</a></li>
+                        <li><a href="gallery.aspx">Gallery</a></li>
+                        <li><a href="contact_us.aspx">Contact</a></li>
+                    </ul>
+
+                  
+                </div>
+                  <div class="donate-link col-md-3"><a href="register.aspx" class="btn btn-primary "><span class="btn-title">Donate Now</span></a></div>
+            </div>
+            
+        </div>
+        
+
+    </footer>
+    <div class="copy">
+            <div class="container">
+                2021 &copy; All Rights Reserved | Designed and Developed by E-Ration
+                
+                <span>
+                <a><i class="fab fa-github"></i></a>
+                <a><i class="fab fa-google-plus-g"></i></a>
+                <a><i class="fab fa-pinterest-p"></i></a>
+                <a><i class="fab fa-twitter"></i></a>
+                <a><i class="fab fa-facebook-f"></i></a>
+                </span>
+            </div>
+
+        </div>
+    </div>
+    </form>
+</body>
+ <script src="assets/js/jquery-3.2.1.min.js"></script>
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/plugins/scroll-fixed/jquery-scrolltofixed-min.js"></script>
+<script src="assets/plugins/slider/js/owl.carousel.min.js"></script>
+<script src="assets/js/script.js"></script>
+
+</html>
