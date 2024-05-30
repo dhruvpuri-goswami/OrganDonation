@@ -1,43 +1,46 @@
-# OrganDonation
-Organ donation is the entire practice of retrieving a human organ from a living or deceased person ,Who is referred to as a donor, and transplanting it into a recipient. The recipient will be a patient who is suffering from organ failure and who will not survive unless he/she receives an organ replacement.
-Our Mission:-
-“ Not everyone has the chance to save a life of someone ”
-Our main aims are :-
--	To spread awareness about organ donation among the people.
--	To give a hope for a new life to the people who have given up.
--	Networking with hospitals who transplant the organs, with NGO's who are working for this type of activities.
-“ With awareness comes knowledge and with knowledge comes change ”
+# OrganDonation 💚🏥
 
-Project Members Name with Enrollments :-
-1)	196120316019 - Dhruvpuri Goswami
-2)	196120316040 - Abhishek Nalla 
+OrganDonation is a dedicated ASP.NET web platform that facilitates the process of organ donation and transplantation. It serves as a crucial bridge between potential organ donors, recipients, and medical institutions, ensuring that the process is streamlined and accessible to all stakeholders.
 
-Software Requirements for Project :-
--	Visual Studio 2010 or more.
--	SQL Server Express
--	SQL Management Studio
+## 🌟 Our Mission
+"Not everyone has the chance to save a life, but everyone can spread the word."
 
-Home Page :
+### 🎯 Our Main Aims
+- 📢 To raise awareness about the importance and impact of organ donation.
+- 🌱 To provide hope and a new chance at life for individuals facing critical organ failures.
+- 🤝 To foster strong networks among hospitals, NGOs, and other organizations involved in organ donation and transplantation.
+
+"With awareness comes knowledge, and with knowledge comes change."
+
+## 🧑‍🤝‍🧑 Project Members
+1) 🆔 196120316019 - Dhruvpuri Goswami
+2) 🆔 196120316040 - Abhishek Nalla
+
+## 💻 Software Requirements
+- 🖥️ Visual Studio 2010 or higher.
+- 🗄️ SQL Server Express
+- 🛠️ SQL Management Studio
+
+## 🏠 Home Page
 ![image](https://user-images.githubusercontent.com/92724441/155834953-54a3d55c-8581-47f0-b083-5d317b52faba.png)
 
+## 🏥 Admin Home Page
+- The Admin is typically a Hospital user.
+- Functions include:
+  1) 📥 Add Organs: Hospitals can add available organs to the database.
+  2) 📜 Requested Organ List: View a list of organs requested by patients or other hospitals.
+- The Admin can also log out from the session.
 
-Admin Home Page :
--	Admin is nothing but a Hospital user.
--	It has two functions.
-(1)	 Add Organs	
-(2)	 Requested Organ List
--	Admin can also Logout From the session.
-    
-    
-User Home Page :
--	It has mainly 3 Functions :-
-(1)	Search for Available Organs
-(2)	Delete Account
-(3)	Request for an organ
- 
- 
+## 👤 User Home Page
+- Main Functions for Users:
+  1) 🔍 Search for Available Organs: Users can search the database for available organs based on specific criteria.
+  2) ❌ Delete Account: Users can delete their accounts if no longer needed.
+  3) 💌 Request for an Organ: Patients or their representatives can request an organ through the platform.
 
- 
+## 📜 Copyright & Licensing
+Copyright © [Year] by Dhruvpuri Goswami and Abhishek Nalla. All rights reserved.
 
+This project is licensed under the [License Name] License - see the LICENSE file for details.
 
-
+## 🍴 Forking This Repository
+If you want to contribute to this project, you are welcome to fork this repository. Please create a pull request for any changes to be reviewed.
